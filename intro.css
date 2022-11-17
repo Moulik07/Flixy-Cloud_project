@@ -1,0 +1,226 @@
+.bg
+{
+    background-image: url("Google-Cloud.png");
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    object-fit: fill;
+    object-position: left;
+    padding-right: 30%;
+    box-sizing: border-box;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;   
+} 
+
+.m
+{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.menu
+{
+    list-style: none;
+    display: flex;
+}
+
+/* .header a
+{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    justify-content:end;
+} */
+
+.menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+  }
+
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    padding: 11px;
+    width: 100%;
+    background-color: #4689df;
+    box-shadow: 5px 10px 30px rgb(0 0 0 / 2%);
+    z-index: 1;
+}
+
+.logo
+{
+    height: 20px;
+}
+
+.menu li a:hover
+{
+    background-color: #fff;
+    color: #4d89d7;
+    /* padding-top: 3px; */
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.2s;
+}
+
+h1,h3,button
+{
+    align-items: center;
+    justify-content: center;
+    top: 272px;
+    left: 52px;
+    color: #fff;
+    position: relative;
+}
+
+h3{
+    left: 70px;
+}
+
+button {
+    top: 315px;
+    left: 180px;
+    background-color: green;
+    border-radius: 25px;
+    padding: 15px 35px;
+    color: yellow;
+    font-size: 16px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: blue;
+}
+.file-upload-field {
+    position: fixed;
+    top: 500px;
+    left: 112px;
+    background-color: #c44a13;
+    border-radius: 25px;
+    padding: 15px 35px;
+    color: yellow;
+    font-size: 16px;
+}
+h2 {
+    display: block;
+    top: 416px;
+    left: 161px;
+    font-size: 33px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    position: fixed;
+    color: white;
+}
+aside {
+  color: #fff;
+  width: 250px;
+  padding-left: 20px;
+  height: 100vh;
+  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
+  border-top-right-radius: 80px;
+}
+
+aside a {
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  padding: 12px;
+  padding-left: 30px;
+  text-decoration: none;
+  -webkit-tap-highlight-color:transparent;
+}
+
+aside a:hover {
+  color: #3f5efb;
+  background: #fff;
+  outline: none;
+  position: relative;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+aside a i {
+  margin-right: 5px;
+}
+
+aside a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 38px;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+  margin: 0;
+  padding: 40px 0;
+}
+
+body {
+  font-family: 'Roboto';
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.social {
+  height: 0;  
+}
+
+.social i:before {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top:5px;
+  right:5px;
+}
